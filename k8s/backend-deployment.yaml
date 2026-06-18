@@ -30,7 +30,7 @@ spec:
       containers:
         - name: backend
           image: wilses10/bandjoun-backend:9
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - containerPort: 5000
           env:
