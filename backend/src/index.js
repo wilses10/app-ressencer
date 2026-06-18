@@ -62,10 +62,10 @@ app.get('/api/quartiers', (req, res) => {
   res.json({
     success: true,
     data: [
-      'Bandjoun-Centre', 'Balatchi', 'Fokam', 'Kaptcheto',
-      'Fotso', 'Fomekap', 'Bameka', 'Badoumla',
-      'Fokouop', 'Tchiengue', 'Ngouoké', 'Fomopéa',
-      'Bansoa', 'Fondjomekwet', 'Kamdja',
+            'Megome', 'Jumgo', 'Mboo I', 'Mboo II',
+            'Fochie', 'Stella', 'Stese', 'Yom',
+            'Kamgo', 'Pete', 'Chefferie',
+      
     ],
   });
 });
