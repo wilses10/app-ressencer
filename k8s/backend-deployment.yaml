@@ -30,10 +30,10 @@ spec:
       containers:
         - name: backend
 <<<<<<< HEAD
-          image: wilses10/bandjoun-backend:9
+          image: wilses10/bandjoun-backend:12
           imagePullPolicy: Always
 =======
-          image: wilses10/bandjoun-backend:11
+          image: wilses10/bandjoun-backend:12
           imagePullPolicy: Always
 >>>>>>> 75897de0faa4e55eaf71f928d0fd8408f40a6f65
           ports:
