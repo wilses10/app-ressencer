@@ -29,7 +29,7 @@ spec:
               echo "MySQL est prêt!"
       containers:
         - name: backend
-          image: wilses10/bandjoun-backend:86
+          image: wilses10/bandjoun-backend:87
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
