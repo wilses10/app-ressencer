@@ -4,6 +4,7 @@ const { pool } = require('../db');
 
 // Liste tous les habitants
 router.get('/', async (req, res) => {
+  await new Promise(resolve => setTimeout(resolve, 3000));
   try {
     const { quartier, search } = req.query;
     let query = 'SELECT * FROM habitants';
