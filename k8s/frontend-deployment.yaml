@@ -17,8 +17,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: bandjoun/frontend:latest
-          imagePullPolicy: Never
+          image: wilses10/bandjoun-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
           resources:
@@ -52,5 +52,4 @@ spec:
   ports:
     - port: 80
       targetPort: 80
-      nodePort: 30080
-  type: NodePort
+  type: LoadBalancer
