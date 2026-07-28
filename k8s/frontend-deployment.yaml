@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: wilses10/bandjoun-frontend:3
+          image: wilses10/bandjoun-frontend:4
           imagePullPolicy: Always
           ports:
             - containerPort: 80
