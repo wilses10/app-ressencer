@@ -22,7 +22,7 @@ spec:
             - sh
             - -c
             - |
-              until nc -z mysql-service 3306; do
+              until nc -z bandjoun-mysql.cqxkqw8qs7o3.us-east-1.rds.amazonaws.com 3306; do
                 echo "En attente de MySQL...";
                 sleep 3;
               done;
